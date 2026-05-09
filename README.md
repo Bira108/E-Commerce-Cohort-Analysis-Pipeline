@@ -28,7 +28,6 @@ We implemented a **Medallion Architecture**:
 <br>
 <img width="699" height="400" alt="Cohort Size Chart (2024   2025)" src="https://github.com/user-attachments/assets/52b05607-f882-429f-ae6b-5f00c6f635a6" />
 <br>
-<br>
 **Cohort Size Chart (2024 & 2025)**
 <br>
 <br>
