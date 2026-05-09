@@ -21,7 +21,7 @@ We implemented a **Medallion Architecture**:
 
 ## Dashboard View (Databricks)
 
-(https://rb.gy/p7bymc)
+[View Dashboard](https://rb.gy/p7bymc)
 
 ## Visualizations
 
