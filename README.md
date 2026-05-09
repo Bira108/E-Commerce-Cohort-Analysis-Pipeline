@@ -18,3 +18,7 @@ We implemented a **Medallion Architecture**:
 - **Databricks** (PySpark/SQL)
 - **Delta Lake**
 - **Medallion Architecture**
+
+## Dashboard View
+
+** https://dbc-413184b8-9b3e.cloud.databricks.com/dashboardsv3/01f14a6e046a16619fd8b5d52ae07d93/published?o=7474645768949498
