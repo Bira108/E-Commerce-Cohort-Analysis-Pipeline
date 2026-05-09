@@ -19,6 +19,6 @@ We implemented a **Medallion Architecture**:
 - **Delta Lake**
 - **Medallion Architecture**
 
-## Dashboard View
+## Dashboard View in Databricks
 
 (https://rb.gy/p7bymc)
