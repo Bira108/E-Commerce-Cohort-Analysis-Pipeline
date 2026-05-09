@@ -21,19 +21,24 @@ We implemented a **Medallion Architecture**:
 
 ## Visualizations
 
+## Visualizations
+
+<br>
+
+![Dashboard](images/dashboard.png)
+
+
 **Cohort Size Chart (2024 only)**
 
 <img width="699" height="400" alt="Cohort Size Chart (2024   2025)" src="https://github.com/user-attachments/assets/52b05607-f882-429f-ae6b-5f00c6f635a6" />
-
 
 
 **Cohort Size Chart (2024 & 2025)**
 
 <img width="699" height="400" alt="Cohort Size Chart (2024 only)" src="https://github.com/user-attachments/assets/40c50887-072e-4311-9928-78aa83601443" />
 
-
-
 **Retention to 2nd Purchase (2024 & 2025)**
+
 <img width="699" height="400" alt="Retention to 2nd Purchase (2024   2025)" src="https://github.com/user-attachments/assets/74c6ece1-fde0-44b0-8c33-8eaf71849807" />
 
 
