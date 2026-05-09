@@ -19,7 +19,9 @@ We implemented a **Medallion Architecture**:
 - **Delta Lake**
 - **Medallion Architecture**
 
-## Visualizations
+## Dashboard View (Databricks)
+
+(https://rb.gy/p7bymc)
 
 ## Visualizations
 
@@ -53,6 +55,4 @@ We implemented a **Medallion Architecture**:
 <br>
 <img width="699" height="400" alt="visualization Repeat Purchase Depth (2024 Only)" src="https://github.com/user-attachments/assets/58e0d2e5-00c5-4650-bb3a-2f1242c35357" />
 <br>
-## Dashboard View in Databricks
 
-(https://rb.gy/p7bymc)
