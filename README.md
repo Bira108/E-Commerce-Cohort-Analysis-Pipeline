@@ -1,4 +1,5 @@
 # Databricks Medallion Architecture Project
+E-Commerce-Cohort_Analysis_Pipeline
 
 ## Project Overview
 This project establishes an automated ELT pipeline using Databricks to answer the core business question: **How long does it take for customers to return for a second purchase?**
