@@ -1,4 +1,4 @@
-# E-Commerce Dynamic Cohort & Retention Pipeline
+# Databricks Medallion Architecture Project
 
 ## Project Overview
 This project establishes an automated ELT pipeline using Databricks to answer the core business question: **How long does it take for customers to return for a second purchase?**
