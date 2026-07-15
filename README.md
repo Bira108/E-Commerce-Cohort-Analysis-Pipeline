@@ -58,6 +58,16 @@ The analytical dashboard monitors user behavior across both year-specific slices
 
 ---
 
+## Data Governance & Pipeline Reliability
+To transition this pipeline from a local prototype to an enterprise-grade solution, several core data governance and quality frameworks were integrated:
+
+*   **Schema Enforcement & Evolution:** Leveraged Delta Lake's native schema enforcement to automatically reject write operations that contain unexpected columns or data type mismatches, protecting downstream Gold tables from schema drift.
+*   **Data Quality Safeguards (Silver Layer):** Implemented strict validation checks to quarantine records with missing or null primary keys (`customer_id`, `order_id`), ensuring metric calculations remain untainted.
+*   **Idempotency & Restarts:** Designed the ingestion pipeline to support safe retries. If a pipeline run fails midway, restarting it will overwrite or merge data cleanly rather than appending duplicate transactional records.
+*   **Time-Travel & Auditability:** Utilized Delta Lake's transaction log to maintain historical table versions, enabling quick data auditing, troubleshooting, and rollback capabilities.
+
+---
+
 ## 📂 Repository Contents
 *   `📁 reports/`
     *   `Ecom Databricks Report.pdf` - Complete analytical summary and executive presentation.
