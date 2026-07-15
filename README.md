@@ -6,7 +6,7 @@ This project establishes an automated ELT (Extract, Load, Transform) data pipeli
 ---
 
 ## 📊 Quick Dashboard Preview
-*(Insert a high-quality screenshot of your 6-chart Databricks Dashboard here)*
+*(Insert your high-quality dashboard screenshot here)*
 ![E-Commerce Cohort Dashboard](dashboard_results.png)
 
 ---
@@ -59,9 +59,13 @@ The analytical dashboard monitors user behavior across both year-specific slices
 ---
 
 ## 📂 Repository Contents
-*   `📁 reports/`: Contains the **4-Page Business Report (PDF)** compiling the full executive presentation and recommendations.
-*   `📁 src/`: Source `.ipynb` and `.dbc` (Databricks Archive) files containing the complete SQL transformation scripts.
-*   `dashboard_results.png`: A high-resolution layout of the 6-chart dashboard suite.
+*   `📁 reports/`
+    *   `Ecom Databricks Report.pdf` - Complete analytical summary and executive presentation.
+*   `📁 src/`
+    *   `ETL Project Notebook.ipynb` - Standard Jupyter Notebook export containing the pipeline code.
+    *   `ETL Project Notebook.html` - Static HTML export showing fully rendered SQL code and tables.
+    *   `ETL Project Notebook.dbc` - Source Databricks Archive file for easy cluster import.
+*   `dashboard_results.png` - High-resolution layout of the 6-chart dashboard suite.
 
 ---------
 
@@ -71,22 +75,6 @@ E-Commerce-Cohort_Analysis_Pipeline
 
 ## Project Overview
 This project establishes an automated ELT pipeline using Databricks to answer the core business question: **How long does it take for customers to return for a second purchase?**
-
-## The Architecture
-We implemented a **Medallion Architecture**:
-- **Bronze:** Raw transactional ingestion.
-- **Silver:** Data cleaning and validation.
-- **Gold:** Cohort and Retention metric aggregation.
-
-## Key Insights
-- Successfully integrated 1,000+ incremental records from 2025.
-- Identified an average retention window of [X] days for 2024 baseline.
-- Observed a loyalty migration where repeat purchase depth improved year-over-year.
-
-## Tools Used
-- **Databricks** (PySpark/SQL)
-- **Delta Lake**
-- **Medallion Architecture**
 
 ## Dashboard View (Databricks)
 
