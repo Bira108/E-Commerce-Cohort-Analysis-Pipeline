@@ -5,9 +5,7 @@ This project establishes an automated ELT (Extract, Load, Transform) data pipeli
 
 ---
 
-## Quick Dashboard Preview
-*(Insert your high-quality dashboard screenshot here)*
-![E-Commerce Cohort Dashboard](dashboard_results.png)
+## Dashboard Preview
 [View Dashboard](https://rb.gy/p7bymc)
 
 ---
