@@ -5,20 +5,21 @@ This project establishes an automated ELT (Extract, Load, Transform) data pipeli
 
 ---
 
-## 📊 Quick Dashboard Preview
+## Quick Dashboard Preview
 *(Insert your high-quality dashboard screenshot here)*
 ![E-Commerce Cohort Dashboard](dashboard_results.png)
+[View Dashboard](https://rb.gy/p7bymc)
 
 ---
 
-## 💡 Key Business Insights
+## Key Business Insights
 *   **Established Baseline:** Identified a baseline customer lifecycle of **248 days** for the 2024 cohort to complete their second-purchase journey, indicating a durable-goods purchasing pattern.
 *   **Automated Scaling:** Successfully ingested and merged **1,000+ incremental transactions from 2025** into the historical pipeline without interrupting downstream reports.
 *   **Loyalty Migration:** Uncovered a positive year-over-year migration trend, showing steady improvements in repeat purchase depth (retained customers making 2+, 3+, and 4+ follow-up purchases).
 
 ---
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 To ensure data quality, scalability, and structural separation of concerns, the pipeline follows the **Medallion Lakehouse Architecture** implemented via Delta Lake tables:
 
 [Bronze Layer (Raw)] ───► [Silver Layer (Cleaned)] ───► [Gold Layer (Business Metrics)]
@@ -39,7 +40,7 @@ To ensure data quality, scalability, and structural separation of concerns, the 
 
 ---
 
-## 🛠️ Tooling & Tech Stack
+## Tooling & Tech Stack
 *   **Platform:** Databricks (Single-Node Cluster)
 *   **Languages:** SQL (Analytical Engine), PySpark (ELT Logic)
 *   **Storage Format:** Delta Lake (for ACID transactions and time-travel capability)
@@ -47,7 +48,7 @@ To ensure data quality, scalability, and structural separation of concerns, the 
 
 ---
 
-## 📈 Visualizations Built & Tracked
+## Visualizations Built & Tracked
 The analytical dashboard monitors user behavior across both year-specific slices and rolling comparisons:
 
 | Analysis Domain | Visualizations Created |
