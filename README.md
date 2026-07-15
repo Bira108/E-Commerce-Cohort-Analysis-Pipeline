@@ -4,8 +4,13 @@
 This project establishes an automated ELT (Extract, Load, Transform) data pipeline designed to analyze and predict customer retention patterns. By integrating historical and incremental sales data, the pipeline isolates a core business health metric: **How long does it take for a customer to return for a second purchase?**
 
 ---
+## Quick Dashboard Preview
+[🔗 Click here to view the Interactive Dashboard](https://rb.gy/p7bymc)
 
-## Dashboard Preview
+![E-Commerce Cohort Dashboard](dashboard_results.png)
+
+---
+
 [View Dashboard](https://rb.gy/p7bymc)
 
 ---
